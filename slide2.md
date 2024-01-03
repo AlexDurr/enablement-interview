@@ -4,16 +4,29 @@ background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
 name: slide2
 
-## Slide 2
+## Consul-Terraform-Sync (CTS)
 
-Here's an example of incremental text (hit left to progress):
+### Why is it needed?
 
-- List Item 1
 --
 
-- List Item 2
+- Enterprise network and security Changes often require manual intervention
 --
 
-- List Item 3
+- Can take days or weeks
+--
+
+- Manual processes increase chances of misconfiguration
+--
+
+- Slows down pace of innovation
+--
+
+- Network and security teams cannot handle the scale and speed of changes
+--
+
+- Costs due to inefficient use of human and computer resources
 
 ???
+
+---
