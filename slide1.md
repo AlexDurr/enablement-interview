@@ -1,5 +1,5 @@
 layout: true
-class: img-left-full, 
+class: img-left-full
 background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
 name: slide1
@@ -21,6 +21,6 @@ This is going to be an overview of an advanced feature of Consul called Consul-T
 
 Go over Agenda items.
 
-At the end of the presentation, you should have a basic understanding of the Consul-Terraform-Sync feature and why you might want to utilize it's capabilities. Links to additional resources will be provided at the end. 
+At the end of the presentation, you should have a basic understanding of the Consul-Terraform-Sync feature and why you might want to utilize it's capabilities. Links to additional resources will be provided at the end.
 
 ---

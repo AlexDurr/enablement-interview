@@ -20,6 +20,6 @@ Introductions
 
 We will be discussing Consul-Terraform-Sync and the benefits it provides.
 
-<mark>This presentation assumes the audience has experience with Terraform and is currently using or considering running a Consul service catalog! If the audience is not familiar with both Terraform and Consul, this is not the appropriate presentation.</mark>
+**This presentation assumes the audience has experience with Terraform and is currently using or considering running a Consul service catalog! If the audience is not familiar with both Terraform and Consul, this is not the appropriate presentation.**
 
 ---
