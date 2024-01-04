@@ -52,16 +52,18 @@ task {
 Two code blocks that are from a CTS configuration file are shown.
 The code block on the left is the **driver** block used to propagate
 the infrastructure change.
-- The terraform driver is always is required. 
-- By Default CTS uses Consul for the Terraform state files
-- Other Terraform backends could be specified
+
+* The terraform driver is always is required.
+* By Default CTS uses Consul for the Terraform state files
+* Other Terraform backends could be specified
 
 The required providers is for the infrastructure to be changed.
-- any Terraform provider can be included
-- multiple providers can be included
-- commonly used ones are cloud providers, networking providers and security providers
+
+* any Terraform provider can be included
+* multiple providers can be included
+* commonly used ones are cloud providers, networking providers and security providers
 
 The code block on the right is the **task** block. Multiple task
 blocks can be specified.
-The task block 
+The task block
 ---

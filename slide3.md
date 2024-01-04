@@ -6,34 +6,44 @@ name: slide3
 
 # CTS Benefits
 
---
-
-- Automation brings timeframes down to minutes
---
-
-- Automation reduces chances of misconfigurations
---
-
-- Cost savings
---
-
-- Integration with Terraform Enterprise and Terraform Cloud
---
-
- 1. Sentinel Policy
---
-
- 2. Notifications
---
-
- 3. Workspaces
---
-
- 4. Audit Trail
---
-
 ???
 
 Consul-Terraform-Sync has many use cases and through custom modules can be expanded to almost any application
+
+* Automation brings timeframes down to minutes
+* Automation reduces chances of misconfigurations
+* Cost savings
+* Integration with Terraform Enterprise and Terraform Cloud
+  * Sentinel Policy
+  * Notifications
+  * Workspaces
+  * Audit Trail
+
+Integration with Terraform Enterprise and Terraform Cloud requires a Consul Enterprise license
+
+--
+
+* Automation brings timeframes down to minutes
+--
+
+* Automation reduces chances of misconfigurations
+--
+
+* Cost savings
+--
+
+* Integration with Terraform Enterprise and Terraform Cloud
+--
+
+  * Sentinel Policy
+--
+
+  * Notifications
+--
+
+  * Workspaces
+--
+
+  * Audit Trail
 
 ---
