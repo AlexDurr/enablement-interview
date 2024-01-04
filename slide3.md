@@ -4,7 +4,8 @@ background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
 name: slide3
 
-## CTS Benefits
+# CTS Benefits
+
 --
 
 - Automation brings timeframes down to minutes
@@ -31,8 +32,8 @@ name: slide3
  4. Audit Trail
 --
 
-
-
 ???
+
 Consul-Terraform-Sync has many use cases and through custom modules can be expanded to almost any application
+
 ---

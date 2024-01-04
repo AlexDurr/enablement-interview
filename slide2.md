@@ -4,9 +4,9 @@ background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
 name: slide2
 
-## Consul-Terraform-Sync (CTS)
+# Consul-Terraform-Sync (CTS)
 
-### Why is it needed?
+## Why is it needed?
 
 --
 
