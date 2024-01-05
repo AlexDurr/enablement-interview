@@ -14,7 +14,7 @@ usage() {
     echo "Usage: $0 -u <username> -v <vault_host>"
     echo "  -u    GitHub username (optional, default: $DEFAULT_USERNAME)"
     echo "  -v    Vault server hostname (optional, default: $DEFAULT_HOSTNAME)"
-    echo "  -help Display this help message"
+    echo "  -h    Display this help message"
     exit 1
 }
 
