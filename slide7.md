@@ -23,5 +23,6 @@ I have included some links to helpful resources. If you have any other questions
 <https://developer.hashicorp.com/consul/tutorials/network-infrastructure-automation/consul-terraform-sync>
 <https://developer.hashicorp.com/terraform/tutorials/hashicorp/consul-terraform-sync>
 <https://developer.cisco.com/learning/labs/aci-cts-esg/introduction/>
+<https://registry.terraform.io/browse/providers>
 
 ---

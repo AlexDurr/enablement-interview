@@ -37,8 +37,8 @@ task {
   providers = ["aws"]
   variable_files = ["/opt/consul-nia/cts-jumphost-module.tfvars"]
 
-  condition "schedule" {
-    cron = "* * * * *" # every minute
+  condition "services" {
+    names = "nginx"
   }
 
   module_input "services" {
@@ -65,5 +65,16 @@ The required providers is for the infrastructure to be changed.
 
 The code block on the right is the **task** block. Multiple task
 blocks can be specified.
-The task block
+
+The task block is configured with a condition that must be met in order to execute that task. 
+* only one condition per task
+* "schedule" not dynamically triggered by changes to Consul, static triggered by a cron
+* "services" most common reacts to changes in the specified service
+  * can use regex, namespace, or other filters to further limit your task execution condition
+* "catalog-services" only executes on first service instance registration and on last instance deregistration
+  * can use similar filters as "servces"
+* "consul-kv" only executes on chages to the consul KV entry
+
+The "module_input" specifies a Consul object containing values or Metadata to be provided to the Terraform module. 
+
 ---
